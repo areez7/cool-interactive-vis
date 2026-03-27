@@ -1,0 +1,36 @@
+#container {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+#heatmap, #timeline {
+  background: white;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+text {
+  font-family: sans-serif;
+  fill: #333;
+}
+
+.hint {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
