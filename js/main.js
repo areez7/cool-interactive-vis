@@ -14,7 +14,7 @@ d3.csv("data/phone-usage.csv").then((data) => {
     filteredData,
     (v) => {
       const count = v.length;
-      const totalDuration = d3.sum(v, (d) => d.duration);
+      const totalDuration = d3.sum(v, (d) => Math.max(d.duration, 30));
 
       return Math.sqrt(count * totalDuration);
     },
